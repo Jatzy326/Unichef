@@ -1,0 +1,44 @@
+/*formulario agregar*/
+.formulario-derecha {
+    position: absolute;
+    top: 100px; /* Ajusta la distancia desde arriba */
+    transform: translateX(150%);
+    width: 390px; /* Ancho del formulario */
+    padding: 10px; /* Espacio interno del formulario */
+    border: 2px solid #ccc; /* Borde del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para el botón */
+.btn-primary {
+    width: 100%; /* Ancho completo del botón */
+}
+
+/* Estilos para el encabezado */
+h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 15px; /* Ajusta la distancia desde arriba */
+}
+
+/*formulario alumnos*/
+    /* Estilo para ajustar la posición de la tabla */
+    #content {
+        position: absolute;
+        top: 50px; /* Ajusta la distancia desde arriba */
+        left: 230px; /* Ajusta la distancia desde la izquierda */
+        right: 0;
+        bottom: 0;
+        overflow: auto;
+        padding: 50px; /* Añade un poco de espacio alrededor de la tabla */
+        width: calc(100% - 230px); /* Calcula el ancho basado en el tamaño de la pantalla y el margen izquierdo */
+    }
+
+    /* Ajusta el tamaño de la tabla */
+    table {
+        width: 100%; /* Ancho del 100% para que se ajuste al contenedor */
+        background-color: #fff; /* Color de fondo de la tabla */
+    }
+    table th,
+    table td {
+        padding: 8px; /* Añade espacio interno a las celdas */
+    }

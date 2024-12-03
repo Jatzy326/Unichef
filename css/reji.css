@@ -1,0 +1,24 @@
+.cart-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.row-equal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-equal > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
